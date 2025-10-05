@@ -1193,52 +1193,32 @@ body {
 }
 
 /* for  water  section */
-<<<<<<< HEAD
-.water{
-    display: flex;
-    flex-direction: column;
-}
-.water1{
-=======
 .water {
     display: flex;
     flex-direction: column;
 }
 
 .water1 {
->>>>>>> 5d30248 (thora responsive kiya tha..)
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-<<<<<<< HEAD
-.img1{
-=======
 .img1 {
->>>>>>> 5d30248 (thora responsive kiya tha..)
     position: relative;
     top: 0vw;
     left: 7vw;
     transform: rotate(98deg);
 }
 
-<<<<<<< HEAD
-.img2{    
-=======
 .img2 {
->>>>>>> 5d30248 (thora responsive kiya tha..)
     position: relative;
     top: -1vw;
     left: -8vw;
     transform: rotate(267deg);
 }
 
-<<<<<<< HEAD
-.phone{
-=======
 .phone {
->>>>>>> 5d30248 (thora responsive kiya tha..)
     position: relative;
     width: 17vw;
     display: block;
@@ -1249,11 +1229,7 @@ body {
     top: 34vw;
     text-align: center;
     position: relative;
-<<<<<<< HEAD
     
-=======
-
->>>>>>> 5d30248 (thora responsive kiya tha..)
 }
 
 .text h1 {
@@ -1264,10 +1240,6 @@ body {
     color: transparent;
     text-align: center;
     font-weight: 900;
-<<<<<<< HEAD
 }
 
 
-=======
-}
->>>>>>> 5d30248 (thora responsive kiya tha..)
