@@ -1,170 +1,1273 @@
-<!DOCTYPE html>
-<html lang="en">
+@import url(https://db.onlinewebfonts.com/c/5f21b8d13dad527377311ec2d5388bdf?family=Ndot+55);
+@import url(https://db.onlinewebfonts.com/c/de335dd5a66ff095f317757fc7fb58a5?family=Korataki);
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nothing</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-<body>
-    <div class="main-container">
-        <div class="nav">
+html,
+body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
 
-            <div class="l-nav">
-                <img src="Asset/img/1st logo image.png" alt="">
-                <h2>Nothing</h2>
-            </div>
+.main-container {
+    height: 100vh;
+    background-color: #000000;
+    overflow-x: hidden;
+}
 
-            <div class="c-nav">
-                <input type="search" placeholder="Search Here..." />
-            </div>
+/* ---------------- NAVBAR ---------------- */
+.nav {
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    gap: 20px;
+}
 
-            <div class="r-nav">
-                <div class="store cnav">
-                    <h2><a href="#">STORE</a></h2>
-                    <img src="Asset/img/1st logo image.png" alt="">
-                </div>
-                <div class=" cnav">
-                    <h2><a href="#">community</a></h2>
-                    <img src="Asset/img/1st logo image.png" alt="">
-                </div>
-                <div class=" cnav">
-                    <h2><a href="#">Support</a></h2>
-                    <img src="Asset/img/1st logo image.png" alt="">
-                </div>
-            </div>
+.l-nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-        </div>
 
-        <!-- Hero section -->
-        <div class="hero">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-            <div class="line4"></div>
-            <div class="line5"></div>
-            <div class="line6"></div>
-            <div class="line7"></div>
-            <div class="line8"></div>
-            <div class="line9"></div>
-            <div class="line10"></div>
-            <div class="line11"></div>
-            <div class="line12"></div>
-            <div class="line13"></div>
-            <div class="pic1">
-                <img src="Asset/img/black_mbl.png" alt="">
-            </div>
 
-            <div class="pic2">
-                <img src="Asset/img/white_mbl.png" alt="">
-            </div>
 
-            <div>
-                <div class="Fst_h">
-                    <h2>NOTTHING PHONE (1)</h2>
-                    <h2>PURE INSTINCT</h2>
-                </div>
-                <div class="sec_h2">
-                    <h5>SNAPDRAGON 778G+ | 50 MP Dual Camera</h5>
-                </div>
-            </div>
-        </div>
-        <div class="features">
-            <div>
-                <div class="f1">
-                    <h1>Features</h1>
-                </div>
+.l-nav img {
+    position: relative;
+    top: 3vh;
+    padding: 10px 20px;
+    width: 28vw;
+}
 
-            </div>
-            <div class="div_lines1">
-                <h2>Design</h2>
-                <p>Design that goes beyond the surface.</p>
-                <div class="line14"></div>
-                <div class="line15"></div>
-                <div class="line16"></div>
-                <div class="line17"></div>
-                <div class="line18"></div>
-            </div>
-            <div class="div_lines2">
-                <h2>Display</h2>
-                <p>6.55” AMOLED display. HDR10+</p>
-                <div class="line19"></div>
-                <div class="line20"></div>
-                <div class="line21"></div>
-                <div class="line22"></div>
-                <div class="line23"></div>
-            </div>
-            <div class="div_lines3">
-                <h2>Battery</h2>
-                <p>Fuel everything you need. Enjoy as you want. Charge Fast</p>
-                <div class="line24"></div>
-                <div class="line25"></div>
-                <div class="line26"></div>
-                <div class="line27"></div>
-                <div class="line28"></div>
-            </div>
-            <div class="div_lines4">
-                <h2>Camera</h2>
-                <p>50MP dual camera with Sony IMX sensor</p>
-                <div class="line29"></div>
-                <div class="line30"></div>
-                <div class="line31"></div>
-                <div class="line32"></div>
-                <div class="line33"></div>
-            </div>
-            <div class="div_lines5">
-                <h2>Chipset</h2>
-                <p>Snapdragon 778G+ accelerated by 5G</p>
-                <div class="line34"></div>
-                <div class="line35"></div>
-                <div class="line36"></div>
-                <div class="line37"></div>
-                <div class="line38"></div>
-            </div>
-            <div class="div_lines6">
-                <h2>Performance</h2>
-                <p>Essential power for speed and gaming</p>
-                <div class="line34"></div>
-                <div class="line35"></div>
-                <div class="line36"></div>
-                <div class="line37"></div>
-                <div class="line38"></div>
-            </div>
-            <div class="div_lines7">
-                <h2>Sustainability</h2>
-                <p>Made with 100% recycled aluminium.</p>
-                <div class="line39"></div>
-                <div class="line40"></div>
-                <div class="line41"></div>
-                <div class="line42"></div>
-                <div class="line43"></div>
-            </div>
-            <div class="div_lines8">
-                <h2>Battery</h2>
-                <p>Fuel everything you need. Enjoy as you want. Charge Fast</p>
-                <div class="line44"></div>
-                <div class="line45"></div>
-                <div class="line46"></div>
-                <div class="line47"></div>
-                <div class="line48"></div>
-            </div>
+.nav .l-nav h2 {
+    position: absolute;
+    top: 7vh;
+    font-family: "Ndot 55";
+    color: white;
+    text-transform: uppercase;
+    font-size: 5vw;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
 
-        </div>
+.c-nav {
+    height: 60px;
+    width: 280px;
+    background-image: url(Asset/img/Group4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-        <div class="water">
-            <div class="text">
-                <h1>IPS3</h1>
-            </div>
-            <div class="water1">
-                <img class="img1" src="Asset/img/water.png" alt="">
-                <img class="phone" src="Asset/img/black_mbl.png" alt="">
-                <img class="img2" src="Asset/img/water.png" alt="">
-            </div>
+.c-nav input {
+    width: 90%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 1rem;
+    font-family: "Ndot 55";
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    z-index: 10;
+}
 
-        </div>
-    </div>
-</body>
+.r-nav {
+    display: flex;
+    margin-left: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+}
 
-</html>
+.r-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Ndot 55";
+    transition: 0.3s ease;
+}
+
+.r-nav a:hover {
+    color: #aaa;
+}
+
+.cnav img {
+    width: 90%;
+}
+
+.cnav h2 {
+    position: relative;
+    top: 6vh;
+    text-align: center;
+}
+
+.store h2 {
+    padding: 1px 20px;
+}
+
+.mobile {
+    display: none;
+    /* Hide toggle on desktop */
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Tablet devices */
+/* Tablet devices (768px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .c-nav,
+    /* Hide the search bar */
+    .r-nav {
+        /* Hide the desktop links */
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        /* Show the mobile toggle logo */
+        position: relative;
+        right: 20%;
+        left: 8%;
+
+    }
+
+    .l-nav {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .l-nav img {
+        position: relative;
+        top: 3vh;
+        padding: 19px 11px;
+        right: 48%;
+    }
+
+    .nav .l-nav h2 {
+        position: absolute;
+        top: 7vh;
+        right: 55%;
+        font-family: "Ndot 55";
+        color: white;
+        text-transform: uppercase;
+        font-size: 5vw;
+        letter-spacing: 3px;
+        font-weight: normal;
+    }
+
+    /* Ensure the logo area is styled correctly when other elements are hidden */
+    .nav {
+        justify-content: space-around;
+        /* Adjust spacing when elements are removed */
+    }
+}
+
+/* Mobile devices (Up to 767px) */
+@media only screen and (max-width: 767px) {
+
+    .c-nav,
+    /* Hide the search bar */
+    .r-nav {
+        /* Hide the desktop links */
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        /* Show the mobile toggle logo */
+    }
+
+    /* Adjustments for a very narrow layout */
+    .nav {
+        height: 12vh;
+        padding: 0 5%;
+        justify-content: space-around;
+    }
+
+    .l-nav h2 {
+        font-size: 8vw;
+        /* Make logo text larger on small screens */
+        top: 5vh;
+    }
+
+    .l-nav img {
+        width: 71vw;
+        top: 1vh;
+    }
+
+    /* @media only screen and (min-width: 380px) and (max-width: 760px) {
+        .l-nav img {
+            width: 47vw;
+            top: 2vh;
+        }
+
+
+    } */
+
+
+}
+
+
+
+
+
+/* Mobile toggle image inside .mobile */
+.mobile img {
+    height: 50px;
+    /* adjust as needed */
+    width: auto;
+}
+
+
+
+
+
+
+/* ---------------- HERO SECTION ---------------- */
+
+.hero {
+    position: relative;
+    top: -9vw;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+/* keep your 13 lines exactly as is */
+.line1 {
+    position: absolute;
+    top: 16.1vw;
+    left: 25vw;
+    color: white;
+    height: 2px;
+    width: 19vw;
+    background-color: white;
+    transform: rotate(-144.05deg);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.line2 {
+    position: absolute;
+    top: 21.6vw;
+    left: 42vw;
+    background-color: white;
+    height: 2px;
+    width: 14.9vw;
+    box-shadow: 0px 0px 6px 1px rgb(238 229 229);
+}
+
+.line3 {
+    position: absolute;
+    top: 24.1vw;
+    height: 2px;
+    width: 8vw;
+    background-color: white;
+    left: 56.1vw;
+    transform: rotate(36deg);
+    box-shadow: 0px 0px 6px 1px rgb(238 229 229);
+}
+
+.line4 {
+    position: absolute;
+    top: 26.4vw;
+    height: 2px;
+    width: 36vw;
+    background-color: white;
+    left: 63.2vw;
+    box-shadow: 0px 0px 6px 1px rgb(238 229 229);
+}
+
+.line5 {
+    position: absolute;
+    top: 27.4vw;
+    height: 2px;
+    width: 17vw;
+    background-color: white;
+    left: 47.2vw;
+    transform: rotate(-140.59deg);
+    box-shadow: 0px 0px 6px 1px rgb(238 229 229);
+}
+
+.line6 {
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 6vw;
+    top: 32.8vw;
+    left: 62.2vw;
+    box-shadow: 0px 0px 6px 1px rgb(238 229 229);
+}
+
+.line7 {
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 6vw;
+    top: 34.3vw;
+    left: 67.6vw;
+    transform: rotate(-148deg);
+    box-shadow: 0px 0px 6px 1px rgb(238 229 229);
+}
+
+.line8 {
+    position: absolute;
+    top: 35.7vw;
+    left: 73vw;
+    background-color: white;
+    height: 2px;
+    width: 14.9vw;
+    box-shadow: 0px 0px 6px 1px rgb(238 229 229);
+}
+
+.line9 {
+    position: absolute;
+    top: 33.6vw;
+    height: 2px;
+    width: 6vw;
+    background-color: white;
+    left: 86.9vw;
+    transform: rotate(-49deg);
+    box-shadow: 0px 0px 6px 1px rgb(238 229 229);
+}
+
+.line10 {
+    position: absolute;
+    top: 31.4vw;
+    left: 92vw;
+    background-color: white;
+    height: 2px;
+    width: 6.9vw;
+    box-shadow: 0px 0px 6px 1px rgb(238 229 229);
+}
+
+.line11 {
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 52vw;
+    top: 45vw;
+    box-shadow: 0px 0px 20px 2px rgb(238 229 229);
+}
+
+.line12 {
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 5vw;
+    top: 43.5vw;
+    left: 51vw;
+    transform: rotate(-41deg);
+    box-shadow: 0px 0px 20px 2px rgb(238 229 229);
+}
+
+.line13 {
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 44vw;
+    top: 42vw;
+    left: 55vw;
+    box-shadow: 0px 0px 20px 2px rgb(238 229 229);
+}
+
+/* ---------------- PHONES ---------------- */
+.pic1 {
+    max-width: 84%;
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.pic1 img {
+    width: 15vw;
+    transform: rotate(-27deg);
+    display: block;
+}
+
+.pic2 {
+    max-width: 84%;
+    position: absolute;
+    top: 56%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+}
+
+.pic2 img {
+    width: 16vw;
+    max-width: 16vw;
+    transform: rotate(-27deg);
+    display: block;
+}
+
+/* ---------------- RESPONSIVE SECTION ---------------- */
+
+/* Tablets and below */
+@media (max-width: 1024px) {
+
+    /* hide lines */
+    .line1,
+    .line2,
+    .line3,
+    .line4,
+    .line5,
+    .line6,
+    .line7,
+    .line8,
+    .line9,
+    .line10,
+    .line11,
+    .line12,
+    .line13 {
+        display: none;
+    }
+
+    /* center hero content */
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        height: auto;
+        padding: 40px 0;
+    }
+
+    /* make phones responsive */
+    .pic1,
+    .pic2 {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .pic1 img,
+    .pic2 img {
+        width: 40vw;
+        max-width: 250px;
+        height: auto;
+        transform: rotate(0deg);
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+
+    .pic1 img,
+    .pic2 img {
+        width: 55vw;
+        max-width: 180px;
+    }
+
+    .pic1,
+    .pic2 {
+        margin: 15px 0;
+    }
+}
+
+
+.Fst_h {
+    position: absolute;
+    top: 27vw;
+    left: 5vw;
+    color: #999d9c;
+    text-align: center;
+}
+
+.Fst_h h2 {
+    font-family: "Korataki";
+    font-size: 2.7vw;
+}
+
+.sec_h2 {
+    position: absolute;
+    color: #ffffff;
+    top: 42vw;
+    left: 7vw;
+}
+
+.sec_h2 h5 {
+    font-size: 1.9vw;
+    font-family: "Ndot 55";
+    text-transform: capitalize;
+}
+
+/* ============ Custom Scrollbar ============ */
+
+/* Chrome, Edge, Safari */
+.main-container::-webkit-scrollbar {
+    width: 10px;
+    /* scrollbar width */
+}
+
+.main-container::-webkit-scrollbar-track {
+    background: #111;
+    /* track color */
+    border-radius: 10px;
+}
+
+.main-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #fff, #888);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #fff;
+}
+
+.main-container::-webkit-scrollbar-thumb:hover {
+    background: #ccc;
+}
+
+/* Firefox custom scrollbar */
+.main-container {
+    scrollbar-width: thin;
+    scrollbar-color: #fff #111;
+    /* thumb, track */
+}
+
+
+/* .............................hero page end........................................... */
+.features {
+    /* place-self: auto; */
+    /* grid-area: auto; */
+    z-index: auto;
+    /* float: none; */
+    /* flex-shrink: 1; */
+    display: flex;
+    margin: 0px;
+    inset: 0px;
+    position: relative;
+    /* flex-basis: auto; */
+    overflow: visible;
+    box-sizing: border-box;
+    width: 100%;
+    height: 400px;
+    /* padding: 0px 0px 788px; */
+    justify-content: center;
+
+}
+
+.f1 {
+    text-align: center;
+    justify-content: center;
+}
+
+.f1 h1 {
+    color: white;
+    font-size: 5vw;
+}
+
+/* for line 1 */
+.div_lines1 {
+    position: absolute;
+    left: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    height: 206px;
+    width: 245px;
+}
+
+.div_lines1 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+    font-size: 3vw;
+}
+
+.div_lines1 p {
+    color: white;
+    font-size: 2vw;
+}
+
+.line14 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 21vw;
+    background-color: white;
+    top: -1vw;
+    left: -1vw;
+}
+
+.line15 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 14vw;
+    background-color: white;
+    top: 6vw;
+    left: -8vw;
+    transform: rotate(90deg);
+}
+
+.line16 {
+    position: absolute;
+    height: 2px;
+    width: 17vw;
+    background-color: white;
+    top: 13vw;
+    left: -1vw;
+}
+
+.line17 {
+    position: absolute;
+    height: 2px;
+    width: 6vw;
+    background-color: white;
+    top: 10.7vw;
+    left: 15vw;
+    transform: rotate(-50deg);
+}
+
+.line18 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 9.5vw;
+    background-color: white;
+    top: 3.8vw;
+    left: 15.2vw;
+    transform: rotate(90deg);
+}
+
+/* for display */
+.div_lines2 {
+    position: absolute;
+    left: 32vw;
+    top: 14vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    height: 206px;
+    width: 245px;
+    width: 245px;
+}
+
+.div_lines2 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+    font-size: 3vw;
+}
+
+.div_lines2 p {
+    color: white;
+    font-size: 2vw;
+}
+
+.line19 {
+    position: absolute;
+    height: 2px;
+    width: 6.3vw;
+    background-color: white;
+    top: 0.7vw;
+    left: -5vw;
+    transform: rotate(-50deg);
+}
+
+.line20 {
+    position: absolute;
+    height: 1px;
+    width: 18vw;
+    background-color: white;
+    top: -1.6vw;
+    left: 0vw;
+}
+
+.line21 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 8.9vw;
+    background-color: white;
+    top: 7.4vw;
+    left: -8.3vw;
+    transform: rotate(90deg);
+}
+
+.line22 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 22vw;
+    background-color: white;
+    top: 12vw;
+    left: -4vw;
+}
+
+.line23 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 13.4vw;
+    background-color: white;
+    top: 5.1vw;
+    left: 11.3vw;
+    transform: rotate(90deg);
+}
+
+/* for line 3 */
+
+.div_lines3 {
+    position: absolute;
+    left: 54.4vw;
+    top: 14vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    height: 206px;
+    width: 245px;
+}
+
+.div_lines3 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+    font-size: 3vw;
+}
+
+.div_lines3 p {
+    color: white;
+    font-size: 1.8vw;
+}
+
+.line24 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 13.4vw;
+    background-color: white;
+    top: 5.1vw;
+    left: -8.7vw;
+    transform: rotate(90deg);
+
+}
+
+.line25 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 22vw;
+    background-color: white;
+    top: 12vw;
+    left: -2vw;
+}
+
+.line26 {
+    position: absolute;
+    height: 1px;
+    width: 18vw;
+    background-color: white;
+    top: -1.6vw;
+    left: -2vw;
+}
+
+.line27 {
+    position: absolute;
+    height: 2px;
+    width: 6.3vw;
+    background-color: white;
+    top: 0.7vw;
+    left: 14.9vw;
+    transform: rotate(50deg);
+}
+
+.line28 {
+    position: absolute;
+    height: 2px;
+    width: 8.9vw;
+    background-color: white;
+    top: 7.6vw;
+    left: 15.7vw;
+    transform: rotate(90deg);
+
+}
+
+/* line 4 */
+
+.div_lines4 {
+    position: absolute;
+    left: 6vw;
+    top: 17vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    height: 206px;
+    width: 245px;
+}
+
+.div_lines4 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+    font-size: 3vw;
+}
+
+.div_lines4 p {
+    color: white;
+    font-size: 2vw;
+}
+
+.line29 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 21vw;
+    background-color: white;
+    top: -1vw;
+    left: -1vw;
+}
+
+.line30 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 14vw;
+    background-color: white;
+    top: 6vw;
+    left: -8vw;
+    transform: rotate(90deg);
+}
+
+.line31 {
+    position: absolute;
+    height: 2px;
+    width: 17vw;
+    background-color: white;
+    top: 13vw;
+    left: -1vw;
+}
+
+.line32 {
+    position: absolute;
+    height: 2px;
+    width: 6vw;
+    background-color: white;
+    top: 10.7vw;
+    left: 15vw;
+    transform: rotate(-50deg);
+}
+
+.line33 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 9.5vw;
+    background-color: white;
+    top: 3.8vw;
+    left: 15.2vw;
+    transform: rotate(90deg);
+}
+
+/* for line 5 */
+.div_lines5 {
+    position: absolute;
+    left: 76vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    height: 206px;
+    width: 245px;
+}
+
+.div_lines5 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+    font-size: 3vw;
+}
+
+.div_lines5 p {
+    color: white;
+    font-size: 2vw;
+}
+
+.line34 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 14vw;
+    background-color: white;
+    top: 6vw;
+    left: 11vw;
+    transform: rotate(90deg);
+}
+
+.line35 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 21vw;
+    background-color: white;
+    top: -1vw;
+    left: -3vw;
+}
+
+.line36 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 9.5vw;
+    background-color: white;
+    top: 3.8vw;
+    left: -7.8vw;
+    transform: rotate(90deg);
+}
+
+.line37 {
+    position: absolute;
+    height: 2px;
+    width: 6vw;
+    background-color: white;
+    top: 10.7vw;
+    left: -4.1vw;
+    transform: rotate(50deg);
+}
+
+.line38 {
+    position: absolute;
+    height: 2px;
+    width: 17vw;
+    background-color: white;
+    top: 13vw;
+    left: 1vw;
+}
+
+/* for line 6 */
+.div_lines6 {
+    position: absolute;
+    left: 81vw;
+    top: 16vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    height: 206px;
+    width: 245px;
+}
+
+.div_lines6 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+    font-size: 3vw;
+}
+
+.div_lines6 p {
+    color: white;
+    font-size: 2vw;
+    overflow: hidden;
+}
+
+.line34 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 14vw;
+    background-color: white;
+    top: 6vw;
+    left: 11vw;
+    transform: rotate(90deg);
+}
+
+.line35 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 21vw;
+    background-color: white;
+    top: -1vw;
+    left: -3vw;
+}
+
+.line36 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 9.5vw;
+    background-color: white;
+    top: 3.8vw;
+    left: -7.8vw;
+    transform: rotate(90deg);
+}
+
+.line37 {
+    position: absolute;
+    height: 2px;
+    width: 6vw;
+    background-color: white;
+    top: 10.7vw;
+    left: -4.1vw;
+    transform: rotate(50deg);
+}
+
+.line38 {
+    position: absolute;
+    height: 2px;
+    width: 17vw;
+    background-color: white;
+    top: 13vw;
+    left: 1vw;
+}
+
+/* for lines 7 */
+.div_lines7 {
+    position: absolute;
+    left: 32vw;
+    top: 31vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    height: 206px;
+    width: 245px;
+    width: 245px;
+}
+
+.div_lines7 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+    font-size: 3vw;
+    position: relative;
+    margin: 16px -54px;
+    z-index: 2;
+}
+
+.div_lines7 p {
+    color: white;
+    font-size: 2vw;
+    position: relative;
+    margin: -5px -54px;
+    z-index: 2;
+}
+
+.line39 {
+    position: absolute;
+    height: 2px;
+    width: 6.3vw;
+    background-color: white;
+    top: 0.7vw;
+    left: -10vw;
+    transform: rotate(-50deg);
+}
+
+.line40 {
+    position: absolute;
+    height: 1px;
+    width: 23vw;
+    background-color: white;
+    top: -1.6vw;
+    left: -5vw;
+}
+
+.line41 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 11.8vw;
+    background-color: white;
+    top: 8.8vw;
+    left: -14.7vw;
+    transform: rotate(90deg);
+}
+
+.line42 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 16.4vw;
+    background-color: white;
+    top: 6.5vw;
+    left: 9.9vw;
+    transform: rotate(90deg);
+}
+
+.line43 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 27vw;
+    background-color: white;
+    top: 14.7vw;
+    left: -9vw;
+}
+
+/* for line 8*/
+
+.div_lines8 {
+    position: absolute;
+    left: 54.4vw;
+    top: 31vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    height: 206px;
+    width: 245px;
+}
+
+.div_lines8 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+    font-size: 3vw;
+    position: relative;
+    margin: 16px 3px;
+    z-index: 2;
+}
+
+.div_lines8 p {
+    color: white;
+    font-size: 1.8vw;
+    position: relative;
+    margin: -15px 2px;
+    z-index: 2;
+}
+
+.line44 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 16.2vw;
+    background-color: white;
+    top: 6.5vw;
+    left: -9.9vw;
+    transform: rotate(90deg);
+}
+
+.line45 {
+    opacity: 1;
+    position: absolute;
+    height: 2px;
+    width: 26vw;
+    background-color: white;
+    top: 14.7vw;
+    left: -1.9vw;
+}
+
+.line46 {
+    position: absolute;
+    height: 1px;
+    width: 22vw;
+    background-color: white;
+    top: -1.6vw;
+    left: -2vw;
+}
+
+.line47 {
+    position: absolute;
+    height: 2px;
+    width: 6.3vw;
+    background-color: white;
+    top: 0.7vw;
+    left: 18.9vw;
+    transform: rotate(50deg);
+}
+
+.line48 {
+    position: absolute;
+    height: 2px;
+    width: 11.3vw;
+    background-color: white;
+    top: 8.9vw;
+    left: 18.4vw;
+    transform: rotate(90deg);
+}
+
+/* for  water  section */
+<<<<<<< HEAD
+.water{
+    display: flex;
+    flex-direction: column;
+}
+.water1{
+=======
+.water {
+    display: flex;
+    flex-direction: column;
+}
+
+.water1 {
+>>>>>>> 5d30248 (thora responsive kiya tha..)
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+<<<<<<< HEAD
+.img1{
+=======
+.img1 {
+>>>>>>> 5d30248 (thora responsive kiya tha..)
+    position: relative;
+    top: 0vw;
+    left: 7vw;
+    transform: rotate(98deg);
+}
+
+<<<<<<< HEAD
+.img2{    
+=======
+.img2 {
+>>>>>>> 5d30248 (thora responsive kiya tha..)
+    position: relative;
+    top: -1vw;
+    left: -8vw;
+    transform: rotate(267deg);
+}
+
+<<<<<<< HEAD
+.phone{
+=======
+.phone {
+>>>>>>> 5d30248 (thora responsive kiya tha..)
+    position: relative;
+    width: 17vw;
+    display: block;
+}
+
+.text {
+    padding: 0;
+    top: 34vw;
+    text-align: center;
+    position: relative;
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> 5d30248 (thora responsive kiya tha..)
+}
+
+.text h1 {
+    font-size: 30vw;
+    background: url("Asset/img/fontcolour.jpg") no-repeat center center/cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-weight: 900;
+<<<<<<< HEAD
+}
+
+
+=======
+}
+>>>>>>> 5d30248 (thora responsive kiya tha..)
